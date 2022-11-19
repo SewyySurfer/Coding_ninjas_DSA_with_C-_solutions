@@ -1,3 +1,4 @@
+/*
 Given a string, compute recursively a new string where all appearances of "pi" have been replaced by "3.14".
 Constraints :
 1 <= |S| <= 50
@@ -17,8 +18,9 @@ Sample Output :
 Constraints:-
 1<=|S|<=50
 
+*/
 
-Solution:
+// Solution:
 
 #include <bits/stdc++.h>
 using namespace std;
