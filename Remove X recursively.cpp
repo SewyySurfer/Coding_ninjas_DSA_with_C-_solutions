@@ -1,7 +1,7 @@
 /*
 Problem :
 Remove X
-Send Feedback
+
 Given a string, compute recursively a new string where all 'x' chars have been removed.
 Input format :
 String S
