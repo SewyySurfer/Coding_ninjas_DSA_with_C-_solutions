@@ -40,7 +40,7 @@ void removeConsecutiveDuplicates(char *input) {
     for (; input[i] != '\0'; i++) {
       input[i - 1] = input[i];
     }
-    input[i-1]= input[i];   // to also shift null character to left because the above loop gets terminated as it arrive at the null character  
+    input[i-1]= input[i];   // to also shift null character to left because the above loop gets terminated as it arrives at the null character  
     removeConsecutiveDuplicates(input);         // running recursion on the string because remaining string could have other duplicates.
   }
   }
