@@ -43,4 +43,8 @@ void mergeSort(int input[], int size)
     part2[k] = input[i];
     k++; 
   } 
-                                                                               mergeSort(part1, size1); mergeSort(part2, size2); merge(part1, size1, part2, size2, input); }
+  
+  mergeSort(part1, size1); 
+  mergeSort(part2, size2); 
+  merge(part1, size1, part2, size2, input); 
+}
